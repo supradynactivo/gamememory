@@ -1,0 +1,42 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+    tools:context="${relativePackage}.${activityClass}" >
+	
+    <TableRow android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+        <Button
+	    android:id="@+id/boton1"
+	    android:layout_width="140dp"
+	    android:layout_height="140dp"
+	    />
+
+		<Button
+	    android:id="@+id/boton2"
+	    android:layout_width="140dp"
+	    android:layout_height="140dp" 
+	    android:layout_marginLeft="10dp"
+	    />
+        
+    </TableRow>
+	
+	<TableRow android:paddingLeft="15dp">
+	    <Button
+	        android:id="@+id/boton3"
+	        android:layout_width="140dp"
+	        android:layout_height="140dp"
+        />
+		<Button
+	        android:id="@+id/boton4"
+	        android:layout_width="140dp"
+	        android:layout_height="140dp"
+	        android:layout_marginLeft="10dp"
+        />
+	    
+	</TableRow>
+	
+</TableLayout>
